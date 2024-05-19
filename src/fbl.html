@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotbalul in Laz</title>
+    
+    <style>
+        body, html {
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%; 
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/RO_AB_Sasciori_Laz_2011.35.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.822); /* Semi-transparent white background */
+            z-index: 1;
+            font-size: 20px;
+        }
+        
+        .brau {
+            width: 100%; 
+            height: 40px; 
+            background-image: url('https://motivector.ro/wp-content/uploads/2018/08/153-Motiv-Traditional-Transilvania-Sibiu-www.motivector.ro-01.jpg');
+            background-repeat: repeat-x; 
+            background-size: auto 100%; 
+            top: 0; 
+            left: 0; 
+            z-index: 2;
+        }
+
+        .titlu{
+            text-align: center;
+            margin-top: -28px;
+            background-color: goldenrod;
+            z-index: 5;
+        }
+
+        .container {
+            color: rgb(255, 255, 255);
+            background-color: #000000b0; 
+            padding: 20px; 
+            border-radius: 100px; 
+            margin-top: 10px; 
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 600px;
+            height: 780px;
+            width:1850px;
+            overflow-y: auto;
+            font-size:28;
+           
+        }
+
+        .section-button {
+            display: inline-block;
+            padding: 11px 20px;
+            font-size: 16px;
+            background-color: #795c0d;
+            color: #fff;
+            margin:0;
+            cursor: pointer;
+            margin-right: 0; 
+            border-radius: 200px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="brau">
+        <a href="src/index.html" class="section-button">Acasa</a>
+        <a href="src/icoane.html" class="section-button">Pictura pe sticlă</a>
+        <a href="src/lazar.html" class="section-button">„Verșul lui Lazăr”</a>
+        <a href="src/fbl.html" class='section-button'>„Tradiții unice</a>
+        <a href="src/dsp.html" class='section-button'>Despre</a>
+    </div> 
+    <div class="titlu">
+        <h1><b><i>Jocul de fotbal tradițional</i></b></h1>
+    </div>
+</body>
+
+<div class="container">
+
+    <h2></h2>
+              <p>Fotbalul este adesea perceput ca un simbol al unității și al tradiției în multe familii și comunități din întreaga lume. Fotbalul este un sport care aduce oamenii împreună și poate fi o activitate prin care se construiește și se întărește legătura dintre membrii unei familii.<br />
+
+              Ca simbol, fotbalul reprezintă pasiunea, competiția sănătoasă, efortul și spiritul de echipă. În multe culturi, fotbalul este mult mai mult decât un simplu joc; este o modalitate de a celebra tradițiile și valorile transmise din generație în generație.Pentru un fiu și tată care împărtășesc pasiunea pentru acest sport, fiecare meci devine o ocazie specială de a-și întări legătura și de a crea amintiri de neuitat.</p>
+              <p>În prima zi de Paste, locuitorii satului se întalnesc la Cetățea unde se organizează un meci de fotbal,
+              dar nu unul obișnuit ci unul între feciori și însurati. Acest obcei datează de cel puțin 60 de ani. </p>
+    <h3>
+        <p>Interview</p>
+        <audio controls id="myAudio">
+            <source src="src/assets/fbl.mp4" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <script>
+            const audioElement = document.getElementById('myAudio');
+            audioElement.autoplay = false;
+            audioElement.pause();
+        </script>
+    </h3>          
+    
+
+</div>
+
+</html>
+

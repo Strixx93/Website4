@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picutra pe sticla/Galerie</title>
+    
+    <style>
+        body, html {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            height: 100%; /* Set full height */
+            width: 100%; /* Set full width */
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/RO_AB_Sasciori_Laz_2011.35.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.822); /* Semi-transparent white background */
+            z-index: 1;
+            font-size: 20px;
+        }
+        
+        .brau {
+            width: 100%; 
+            height: 40px; 
+            background-image: url('https://motivector.ro/wp-content/uploads/2018/08/153-Motiv-Traditional-Transilvania-Sibiu-www.motivector.ro-01.jpg');
+            background-repeat: repeat-x; 
+            background-size: auto 100%; 
+            top: 0; /* Align at the top */
+            left: 0; /* Align at the left */
+            z-index: 2;
+        }
+
+        .titlu{
+            text-align: center;
+            margin-top: -28px;
+            background-color: goldenrod;
+            z-index: 5;
+        }
+
+        .container {
+            color: rgb(255, 255, 255);
+            background-color: #000000b0; 
+            padding: 20px; 
+            border-radius: 100px; 
+            margin-top: 10px; 
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 600px;
+            height: 780px;
+            width:1850px;
+            overflow-y: auto;
+            font-size:20;
+            scrollbar-width: none;
+           
+        }
+
+        .container img {
+            max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+            max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+            display: block; /* Make sure the images are displayed as block elements */
+            margin: auto; /* Center the images horizontally within the container */
+        }
+
+        .section-button {
+            text-align: center;
+            display: inline-flex;
+            padding: 11px 20px;
+            font-size: 16px;
+            background-color: #795c0d;
+            color: #fff;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            border-radius: 200px;
+}
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="brau">
+        <a href="src/index.html" class="section-button">Acasa</a>
+        <a href="src/icoane.html" class="section-button">Pictura pe sticlă</a>
+        <a href="src/lazar.html" class="section-button">„Verșul lui Lazăr”</a>
+        <a href="src/fbl.html" class='section-button'>„Tradiții unice</a>
+        <a href="src/dsp.html" class='section-button'>Despre</a>
+    </div> 
+    <div class="titlu">
+        <h1><b><i>Pictatul icoanelor pe sticlă</i></b></h1>
+    </div>
+</body>
+
+<div class="container">
+
+    <img src="./assets/ic0.jpeg" alt="Image 1">
+    <img src="./assets/ic1.jpeg" alt="Image 2">
+    <img src="./assets/ic2.jpeg" alt="Image 3">
+    <img src="./assets/ic3.jpeg" alt="Image 4">
+    <img src="./assets/ic4.jpeg" alt="Image 5">
+
+    
+
+</div>
+
+
+
+
+
+</html>
+

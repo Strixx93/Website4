@@ -1,0 +1,166 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/RO_AB_Sasciori_Laz_2011.35.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.822); 
+  scrollbar-width: none;
+}
+
+
+
+.traditii-text {
+  color: black;
+  position: absolute;
+  height:15px;
+  top: 20px; 
+  left: 100px; 
+}
+
+.laz-text{
+  color: black;
+  position: absolute;
+  top: 0;
+  right: -400px;
+  margin-top: 20px; 
+  margin-right: 600px; 
+}
+
+.left-sidebar{
+  color: blueviolet;
+}
+.horizontal-list {
+  display: flex; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.horizontal-list li {
+  margin-right: 10px; 
+}
+
+
+.horizontal-list li {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+
+.brau {
+  width: 100%; 
+  height: 47px; 
+  background-image: url('https://motivector.ro/wp-content/uploads/2018/08/153-Motiv-Traditional-Transilvania-Sibiu-www.motivector.ro-01.jpg'); /* Set the background image */
+  background-repeat: repeat-x; 
+  background-size: auto 100%; 
+  a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+}
+
+.header-column {
+  background-image: url('https://motivector.ro/wp-content/uploads/2017/06/106-Motive-c%C4%83m%C4%83i-b%C4%83rb%C4%83te%C8%99ti-Moldova-jud.-Boto%C8%99ani-Cristine%C8%99ti-www.motivector.ro-Preview.jpg'); /* Semi-transparent white background for the header column */
+  color: rgba(0, 20, 4, 0.993);
+  margin-bottom: 0px;
+  height: 150px; 
+  width: 100vw; 
+  text-align: center;
+}
+
+.small-button {
+  padding: 5px 10px; 
+  font-size: 20px; 
+}
+.section-button {
+  text-align: center;
+  display: inline-flex;
+  padding: 11px 20px;
+  font-size: 16px;
+  background-color: #795c0d;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  border-radius: 200px;
+}
+
+.section-button:hover {
+  background-color: #0056b3;
+}
+
+.default-content{
+  
+  color: rgb(255, 255, 255);
+  background-color: #000000b0; 
+  padding: 20px; 
+  border-radius: 100px; 
+  scrollbar-width: none;
+
+}
+
+.section-content {
+  color: rgb(255, 255, 255);
+  background-color: #0000009c; 
+  padding: 20px; 
+  border-radius: 100px; 
+  margin-left: 10px;
+  margin-right: 550px;
+  margin-top: 100px; 
+  height: 500px;
+  width:1300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  
+}
+
+
+.map-container{
+  position: absolute;
+  right: 0;
+  color: rgb(255, 255, 255);
+  padding: 20px; 
+  border-radius: 0px; 
+  margin-top: -777px; 
+  margin-bottom: -999px;
+  margin-left: 1500px; /* Adjust as needed */
+  margin-right: -48px;
+  height: 600px;
+  width: 600px;
+  z-index: 5;
+  font-size: 26px;
+  transform: scale(0.9);
+}
+
+.content {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 100vw; 
+  color: black;
+  margin-top: auto; 
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
